@@ -1,12 +1,6 @@
 
-import Container from "./Container"
-import ContainerContact from "./ContainerContact"
-import ContainerProjects from "./ContainerProjects"
-import ContainerProjects2 from "./ContainerProjects2"
-import Menu from "./Menu"
-import PersonalDescription from "./PersonalDescription"
 
-const Background = ({ props }) => {
+const Background = ({ children }) => {
     return (
                 <main id="Home" className='bg-[#000000] min-h-[400vh] relative overflow-hidden transition-all font-Sen'>
                 <img className='absolute left-8 top-8 Mobile:left-12' src="/Group.svg" alt="" />
@@ -14,13 +8,7 @@ const Background = ({ props }) => {
                 <img className='absolute left-0' src="/EllipseLeft.svg" />
                 <img className='absolute left-3 top-80 max-w-sm' src="/EllipseComplete.svg" />
                 <img className='absolute top-[70%] sm:bottom-1/2 -right-60 scale-275 sm:scale-150 sm:-right-64 md:scale-110 md:-right-52 ' src="/EllipseComplete.svg" />
-                {props.children}
-                <Menu /> 
-                <PersonalDescription/>
-                <Container/>
-                <ContainerProjects/>
-                <ContainerProjects2/>
-                <ContainerContact />
+                {children}
                 </main>
                 
     )
