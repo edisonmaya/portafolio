@@ -11,13 +11,13 @@ return (
         <nav className={` md:max-w-[550px] lg:max-w-[650px] hidden text-white md:block absolute inset-0 mx-auto text-sm `}>
                 <ul className=" w-full h-full flex gap-2 justify-center items-center ">
                     <li className="grid place-items-center w-full h-full  hover:text-lg  hover:text-[#5221E6]  hover:rounded-md transition-all">
-                    <Link  to="Home" spy={true} smooth={true} offset={0} duration={500} >Home </Link></li>
+                    <Link  to="Home" spy={true} smooth={true} offset={0} duration={500} >Inicio </Link></li>
                     <li className="grid place-items-center w-full h-full  hover:text-lg  hover:text-[#5221E6]  hover:rounded-md transition-all">
-                    <Link  to="ContainerProjects2" spy={true} smooth={true} offset={0} duration={500} >Projects </Link></li>
+                    <Link  to="ContainerProjects2" spy={true} smooth={true} offset={0} duration={500} >Proyectos </Link></li>
                     <li className="grid place-items-center w-full h-full  hover:text-lg  hover:text-[#5221E6]  hover:rounded-md transition-all">
-                    <Link  to="ContainerAboutMe" spy={true} smooth={true} offset={0} duration={500} >About me </Link></li>
+                    <Link  to="ContainerAboutMe" spy={true} smooth={true} offset={0} duration={500} >Sobre Mí </Link></li>
                     <li className="grid place-items-center w-full h-full  hover:text-lg  hover:text-[#5221E6]  hover:rounded-md transition-all">
-                    <Link  to="ContainerContact" spy={true} smooth={true} offset={50} duration={500} >Contact me </Link></li>
+                    <Link  to="ContainerContact" spy={true} smooth={true} offset={50} duration={500} >Contactame </Link></li>
                 </ul>
             </nav>
             <svg xmlns="http://www.w3.org/2000/svg" 
@@ -31,13 +31,13 @@ return (
             <nav className={`border w-full h-40 ${isClickMenu} text-white md:hidden text-sm overflow-x-hidden bg-slate-100/5 rounded-md duration-300`}>
                 <ul className="w-full h-full flex flex-col gap-2 justify-center items-center ">
                     <li className=" grid place-items-center w-full h-full  hover:text-base hover:text-[#5221E6] transition-all hover:rounded-md">
-                    <Link  to="Home" spy={true} smooth={true} offset={0} duration={500} onClick={handleMenu} >Home </Link></li>
+                    <Link  to="Home" spy={true} smooth={true} offset={0} duration={500} onClick={handleMenu} >Inicio </Link></li>
                     <li className="grid place-items-center w-full h-full  hover:text-base hover:text-[#5221E6] transition-all hover:rounded-md">
-                    <Link  to="ContainerProjects2" spy={true} smooth={true} offset={-50} duration={500}onClick={handleMenu} >Projects </Link></li>
+                    <Link  to="ContainerProjects2" spy={true} smooth={true} offset={-10} duration={500}onClick={handleMenu} >Proyectos </Link></li>
                     <li className="grid place-items-center w-full h-full  hover:text-base hover:text-[#5221E6] transition-all hover:rounded-md">
-                    <Link  to="ContainerAboutMe" spy={true} smooth={true} offset={50} duration={500} onClick={handleMenu}>About me </Link></li>
+                    <Link  to="ContainerAboutMe" spy={true} smooth={true} offset={-10} duration={500} onClick={handleMenu}>Sobre Mí </Link></li>
                     <li className="grid place-items-center w-full h-full  hover:text-base hover:text-[#5221E6] transition-all hover:rounded-md">
-                    <Link  to="ContainerContact" spy={true} smooth={true} offset={50} duration={500} onClick={handleMenu}>Contact me </Link></li>
+                    <Link  to="ContainerContact" spy={true} smooth={true} offset={0} duration={500} onClick={handleMenu}>Contactame </Link></li>
                 </ul>
             </nav>
         </button>

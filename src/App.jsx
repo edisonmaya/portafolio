@@ -1,20 +1,20 @@
 import './App.css'
 import Background from './components/Background'
-import Container from './components/Container'
+import ContainerGrid from './components/ContainerGrid'
 import ContainerAboutMe from './components/ContainerAboutMe'
 import ContainerContact from './components/ContainerContact'
 
 import ContainerProjects2 from './components/ContainerProjects2'
 import Menu from './components/Menu'
-import PersonalDescription from './components/PersonalDescription'
+import ContainerDescription from './components/ContainerDescription'
 
 function App() {
   return (
     <>
       <Background >
         <Menu/>
-        <PersonalDescription />
-        <Container />
+        <ContainerDescription />
+        
         <ContainerAboutMe/>
         <ContainerProjects2 />
         <ContainerContact />
