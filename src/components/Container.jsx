@@ -2,7 +2,7 @@
 const Container = () => {
     return (
         <>
-        <section className="md:w-[90%] grid place-items-center mx-auto">
+        <section className="md:w-[90%] min-h-screen grid place-items-center mx-auto">
             <div className=" mx-auto grid place-items-center grid-cols-[repeat(_auto-fill,_minmax(300px,_1fr)_)]  gap-3 px-2 py-4 rounded-2xl bg-[#3e3c3c30] transition-all">
                 <div className=" rounded-2xl bg-[#3e3c3c30] p-2 break-words text-center text-white md:text-sm lg:text-lg transition-all">
                     <img className=" rounded-t-md " src="/CrudUsers.png" alt="" /> 
