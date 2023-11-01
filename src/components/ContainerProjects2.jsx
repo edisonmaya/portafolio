@@ -1,6 +1,6 @@
 const ContainerProjects2 = () => {
     return (
-        <div className="text-white min-h-screen max-w-4xl xl:max-w-6xl mx-auto p-10 flex flex-row-reverse flex-wrap-reverse justify-evenly mt-10">
+        <div id="ContainerProjects2" className="text-white min-h-screen max-w-4xl xl:max-w-6xl mx-auto p-10 flex flex-row-reverse flex-wrap-reverse justify-evenly mt-10">
             <div className="flex items-center justify-center md:max-w-[80vh] ">
                 <img className="max-w-[300px] md:max-w-[400px]" src="/MaskGroup.svg" alt="" />
             </div>
