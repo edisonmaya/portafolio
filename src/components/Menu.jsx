@@ -1,14 +1,22 @@
-import { useState } from "react"
+import {  useState } from "react"
 import {Link} from "react-scroll"
 
 const Menu = () => {
     const [isClickMenu, setIsClickMenu] = useState("translate-x-52");
     const handleMenu= ()=> isClickMenu==="translate-x-52"? setIsClickMenu("translate-x-0") : setIsClickMenu("translate-x-52");
-return (
-    <section className=" w-full h-1 ">
-    <article className=" flex justify-end items-end top-10 relative " >
-        <button className="  w-48 flex flex-row-reverse pr-4 gap-2 cursor-pointer z-10" onClick={handleMenu}>
-        <nav className={` md:max-w-[550px] lg:max-w-[650px] hidden text-white md:block absolute inset-0 mx-auto text-sm `}>
+    //const [desplace, setDesplace] = useState({})
+    
+   // document.addEventListener('scroll',()=>{        
+   //     window.scrollY>0? setDesplace({bg:'bg-white', text:'text-black'}):setDesplace('bg-blue');
+   // })
+    
+    return (
+    
+    <section  className={` w-full h-1 scroll-smooth  `} >
+        
+    <article className={`flex justify-end items-end top-10 relative  `}  >
+        <button className=" w-48 flex flex-row-reverse pr-4 gap-2 cursor-pointer z-10" onClick={handleMenu}>
+        <nav className={` md:max-w-[550px] lg:max-w-[650px] hidden text-white   md:block absolute inset-0 mx-auto text-sm `}>
                 <ul className=" w-full h-full flex gap-2 justify-center items-center ">
                     <li className="grid place-items-center w-full h-full  hover:text-lg  hover:text-[#5221E6]  hover:rounded-md transition-all">
                     <Link  to="Home" spy={true} smooth={true} offset={0} duration={500} >Inicio </Link></li>

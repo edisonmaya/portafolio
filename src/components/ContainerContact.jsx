@@ -18,11 +18,11 @@ const ContainerContact = () => {
                     
                 }
                     <div className={`${isClickContact} z-10 flex justify-center items-center w-full  px-2 rounded-md`}>
-                        <form className=" flex flex-col justify-center items-center gap-4 w-full h-full ">
-                                <input type="text" className="w-full outline-none rounded-sm bg-transparent border-b-[1px] p-2  " placeholder="Nombre" />
-                                <input type="email" className="w-full outline-none rounded-sm bg-transparent border-b-[1px] p-2 " placeholder="Email" />
-                                <input type="text" className="w-full outline-none rounded-sm bg-transparent border-b-[1px] p-2" placeholder="Asunto" />
-                                <textarea name="" id="" cols="30" rows="7" className="w-full border outline-none rounded-sm bg-transparent border-b-[1px] p-2" placeholder="Mensaje"></textarea>
+                        <form action="https://formsubmit.co/ee_mayahuayamave2@hotmail.com" method="POST" className=" flex flex-col justify-center items-center gap-4 w-full h-full ">
+                                <input type="text" className="w-full outline-none rounded-sm bg-transparent border-b-[1px] p-2  " placeholder="Nombre" name="nombre" />
+                                <input type="email" className="w-full outline-none rounded-sm bg-transparent border-b-[1px] p-2 " placeholder="Email" name="email"/>
+                                <input type="text" className="w-full outline-none rounded-sm bg-transparent border-b-[1px] p-2" placeholder="Asunto" name="asunto" />
+                                <textarea id="" cols="30" rows="7" className="w-full border outline-none rounded-sm bg-transparent border-b-[1px] p-2" placeholder="Mensaje" name="mensaje"></textarea>
                                 <div className=" w-full flex justify-evenly gap-2">
                                     <button type="button" className="flex-1 cursor-pointer w-max px-8 py-2 my-3 border-2 text-sm font-normal rounded-lg z-10 hover:text-black hover:bg-[#5221E6]  transition-all ">Enviar</button>
                                     <button type="button" onClick={handleContact} className="flex-1 cursor-pointer w-max px-8 py-2 my-3 border-2 text-sm font-normal rounded-lg z-10 hover:text-black hover:bg-[#5221E6]  transition-all ">Cancelar</button>
