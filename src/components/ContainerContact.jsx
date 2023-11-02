@@ -18,7 +18,7 @@ const ContainerContact = () => {
                     
                 }
                     <div className={`${isClickContact} z-10 flex justify-center items-center w-full  px-2 rounded-md`}>
-                        <form action="https://formsubmit.co/ee_mayahuayamave2@hotmail.com" method="POST" className=" flex flex-col justify-center items-center gap-4 w-full h-full ">
+                        <form action="https://formsubmit.co/d5df65faaf2e225575b6c032811801d2" method="POST" className=" flex flex-col justify-center items-center gap-4 w-full h-full ">
                                 <input type="text" className="w-full outline-none rounded-sm bg-transparent border-b-[1px] p-2  " placeholder="Nombre" name="nombre" />
                                 <input type="email" className="w-full outline-none rounded-sm bg-transparent border-b-[1px] p-2 " placeholder="Email" name="email"/>
                                 <input type="text" className="w-full outline-none rounded-sm bg-transparent border-b-[1px] p-2" placeholder="Asunto" name="asunto" />
