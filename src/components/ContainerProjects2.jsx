@@ -1,4 +1,8 @@
+import { FaNpm, FaReact } from 'react-icons/fa';
+import { IoLogoJavascript } from 'react-icons/io5';
+import { SiAxios, SiCss3, SiGithub, SiHtml5, SiRedux, SiTailwindcss, SiVite,SiReacthookform } from 'react-icons/si';
 const ContainerProjects2 = () => {
+    const medidas = 'w-15 h-15'
     return (
         <>
         <div id="ContainerProjects2" className="text-white gap-4 min-h-screen max-w-4xl xl:max-w-6xl mx-auto p-10 flex flex-row-reverse flex-wrap-reverse justify-evenly mt-10">
@@ -10,6 +14,20 @@ const ContainerProjects2 = () => {
                     <a className="flex-1 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-bl-md text-xs hover:text-[14px] transition-all" href="https://crudformusers.netlify.app/"  target="_blank" rel="noreferrer" >Visitar Página</a>
                     <a className="flex-1  bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-br-md text-xs  hover:text-[14px] transition-all" href="https://github.com/edisonmaya/crudform" target="_blank" rel="noreferrer">Visitar GitHub</a> 
                     </div>
+                    <section className="w-full text-slate-400 grid justify-items-center items-center mx-auto grid-cols-[repeat(_auto-fit,_minmax(40px,_1fr)_)] gap-4  bg-[#3e3c3c30] px-2 py-4 rounded-2xl transition-all">
+                            <FaReact className={`${medidas}`}/>   
+                            <SiRedux className={`${medidas}`}/> 
+                            <SiVite className={`${medidas}`}/>   
+                            <IoLogoJavascript className={`${medidas}`}/>  
+                            <SiHtml5 className={`${medidas}`}/>
+                            <SiCss3 className={`${medidas}`}/>
+                            <SiTailwindcss className={`${medidas}`}/>
+                            <SiGithub className={`${medidas}`}/>
+                            <FaNpm className={`${medidas}`}/>
+                            <SiAxios className={`${medidas}`}/>
+                            <SiReacthookform className={`${medidas}`}/>
+                            
+                </section>
                 </div>
             </div>
             <article className="  p-5 min-w-[300px] md:text-3xl xl:text-5xl flex flex-col flex-1 gap-5 justify-center items-center  text-white font-Sen font-bold text-2xl  break-words">
@@ -27,6 +45,19 @@ const ContainerProjects2 = () => {
                         <a className="flex-1 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-bl-md text-xs hover:text-[14px] transition-all" href="https://pokedexfind.netlify.app"  target="_blank" rel="noreferrer" >Visitar Página</a>
                         <a className="flex-1  bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-br-md text-xs  hover:text-[14px] transition-all" href="https://github.com/edisonmaya/pokedex" target="_blank" rel="noreferrer">Visitar GitHub</a> 
                         </div>
+                        <section className="w-full text-slate-400 grid justify-items-center items-center mx-auto grid-cols-[repeat(_auto-fit,_minmax(40px,_1fr)_)]  gap-4 bg-[#3e3c3c30] px-2 py-4 rounded-2xl transition-all">
+                            
+                            <FaReact className={`${medidas}`}/>   
+                            <SiRedux className={`${medidas}`}/> 
+                            <SiVite className={`${medidas}`}/>   
+                            <IoLogoJavascript className={`${medidas}`}/>  
+                            <SiHtml5 className={`${medidas}`}/>
+                            <SiCss3 className={`${medidas}`}/>
+                            <SiTailwindcss className={`${medidas}`}/>
+                            <SiGithub className={`${medidas}`}/>
+                            <FaNpm className={`${medidas}`}/>
+                            <SiAxios className={`${medidas}`}/>
+                </section>
                     </div>
                 </div>
                 <article className="  p-5 min-w-[300px] md:text-3xl xl:text-5xl flex flex-col flex-1 gap-5 justify-center items-center  text-white font-Sen font-bold text-2xl  break-words">
@@ -44,6 +75,14 @@ const ContainerProjects2 = () => {
                     <a className="flex-1 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-bl-md text-xs hover:text-[14px] transition-all" href="https://ecommeredisonmaya.netlify.app"  target="_blank" rel="noreferrer" >Visitar Página</a>
                     <a className="flex-1  bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-br-md text-xs  hover:text-[14px] transition-all" href="https://github.com/edisonmaya/ecommerce" target="_blank" rel="noreferrer">Visitar GitHub</a> 
                     </div>
+                    <section className="w-full text-slate-400 grid justify-items-center items-center mx-auto grid-cols-[repeat(_auto-fit,_minmax(40px,_1fr)_)]  gap-4 bg-[#3e3c3c30] px-2 py-4 rounded-2xl transition-all">
+                            <IoLogoJavascript className={`${medidas}`}/>  
+                            <SiHtml5 className={`${medidas}`}/>
+                            <SiCss3 className={`${medidas}`}/>
+                            <SiGithub className={`${medidas}`}/>
+                            <SiAxios className={`${medidas}`}/>
+                            <FaNpm className={`${medidas}`}/>
+                </section>
                 </div>
             </div>
             <article className="  p-5 min-w-[300px] md:text-3xl xl:text-5xl flex flex-col flex-1 gap-5 justify-center items-center  text-white font-Sen font-bold text-2xl  break-words">
@@ -61,6 +100,17 @@ const ContainerProjects2 = () => {
                     <a className="flex-1 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-bl-md text-xs hover:text-[14px] transition-all" href="https://rickandmortywp.netlify.app"  target="_blank" rel="noreferrer" >Visitar Página</a>
                     <a className="flex-1  bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-br-md text-xs  hover:text-[14px] transition-all" href="https://github.com/edisonmaya/rickandmorty" target="_blank" rel="noreferrer">Visitar GitHub</a> 
                     </div>
+                <section className="w-full text-slate-400 grid justify-items-center items-center mx-auto grid-cols-[repeat(_auto-fit,_minmax(40px,_1fr)_)]  gap-4 bg-[#3e3c3c30] px-2 py-4 rounded-2xl transition-all">
+                            <FaReact className={`${medidas}`}/>   
+                            <SiVite className={`${medidas}`}/>   
+                            <IoLogoJavascript className={`${medidas}`}/>  
+                            <SiHtml5 className={`${medidas}`}/>
+                            <SiCss3 className={`${medidas}`}/>
+                            <SiTailwindcss className={`${medidas}`}/>
+                            <SiGithub className={`${medidas}`}/>
+                            <SiAxios className={`${medidas}`}/>
+                            <FaNpm className={`${medidas}`}/>
+                </section>
                 </div>
             </div>
             <article className="  p-5 min-w-[300px] md:text-3xl xl:text-5xl flex flex-col flex-1 gap-5 justify-center items-center  text-white font-Sen font-bold text-2xl  break-words">
