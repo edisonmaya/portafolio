@@ -1,4 +1,5 @@
 import { useState } from "react"
+import ContainerSocialLinks from "./ContainerSocialLinks"
 
 const ContainerContact = () => {
     const [isClickContact, setIsClickContact] = useState("hidden")
@@ -9,6 +10,7 @@ const ContainerContact = () => {
                 <div id="ContainerContact" className=" max-w-[400px]  h-max  flex flex-col justify-center items-center gap-6 py-4 px-2 rounded-2xl bg-[#3e3c3c30] text-white ">
                     <span className="text-3xl sm:text-5xl font-bold pt-4">¡Contactame!</span>
                     <p className="text-center px-2">Si mi trabajo es de tu interés no dudes en contactarme!</p>
+                    <ContainerSocialLinks/>
                 {
                     isClickContact==="hidden"?
                     <button type="button" onClick={handleContact} className=" block cursor-pointer w-max px-5 py-2 border-2 text-sm  font-normal rounded-lg z-10 hover:text-[#5221E6]   transition-all ">Click Aquí</button>
