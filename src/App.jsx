@@ -1,12 +1,10 @@
 import './App.css'
 import Background from './components/Background'
-import ContainerGrid from './components/ContainerGrid'
 import ContainerAboutMe from './components/ContainerAboutMe'
 import ContainerContact from './components/ContainerContact'
-
+import ContainerDescription from './components/ContainerDescription'
 import ContainerProjects2 from './components/ContainerProjects2'
 import Menu from './components/Menu'
-import ContainerDescription from './components/ContainerDescription'
 
 function App() {
   return (
@@ -14,7 +12,6 @@ function App() {
       <Background >
         <Menu/>
         <ContainerDescription />
-        
         <ContainerAboutMe/>
         <ContainerProjects2 />
         <ContainerContact />

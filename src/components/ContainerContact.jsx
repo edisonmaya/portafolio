@@ -22,7 +22,7 @@ const ContainerContact = () => {
                                 <input type="text" className="w-full outline-none rounded-sm bg-transparent border-b-[1px] p-2  " placeholder="Nombre" />
                                 <input type="email" className="w-full outline-none rounded-sm bg-transparent border-b-[1px] p-2 " placeholder="Email" />
                                 <input type="text" className="w-full outline-none rounded-sm bg-transparent border-b-[1px] p-2" placeholder="Asunto" />
-                                <input type="text" className="w-full outline-none rounded-sm bg-transparent border-b-[1px] p-2" placeholder="Mensaje" />
+                                <textarea name="" id="" cols="30" rows="7" className="w-full border outline-none rounded-sm bg-transparent border-b-[1px] p-2" placeholder="Mensaje"></textarea>
                                 <div className=" w-full flex justify-evenly gap-2">
                                     <button type="button" className="flex-1 cursor-pointer w-max px-8 py-2 my-3 border-2 text-sm font-normal rounded-lg z-10 hover:text-black hover:bg-[#5221E6]  transition-all ">Enviar</button>
                                     <button type="button" onClick={handleContact} className="flex-1 cursor-pointer w-max px-8 py-2 my-3 border-2 text-sm font-normal rounded-lg z-10 hover:text-black hover:bg-[#5221E6]  transition-all ">Cancelar</button>

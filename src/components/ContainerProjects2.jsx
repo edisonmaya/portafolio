@@ -18,14 +18,14 @@ const ContainerProjects2 = () => {
             </article>
             
         </div>
-                <div id="ContainerProjects2" className="text-white gap-4 min-h-screen max-w-4xl xl:max-w-6xl mx-auto p-10 flex flex-row flex-wrap-reverse justify-evenly mt-10">
+                <div  className="text-white gap-4 min-h-screen max-w-4xl xl:max-w-6xl mx-auto p-10 flex flex-row flex-wrap-reverse justify-evenly mt-10">
                 <div className="relative flex items-center justify-center md:max-w-[80vh]">
                     <img className=" max-w-[300px] md:max-w-[450px]" src="/MaskGroup.svg" alt="" />
                     <div className=" absolute flex flex-col w-[80%]  rounded-2xl bg-[#3e3c3c30] p-2 break-words text-center text-white md:text-sm lg:text-lg transition-all">
                         <img className=" w-full rounded mx-auto" src="/poke.png" alt="" /> 
                         <div className="flex justify-between items-center transition-all">
-                        <a className="flex-1 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-bl-md text-xs hover:text-[14px] transition-all" href="https://crudformusers.netlify.app/"  target="_blank" rel="noreferrer" >Visitar Página</a>
-                        <a className="flex-1  bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-br-md text-xs  hover:text-[14px] transition-all" href="https://github.com/edisonmaya/crudform" target="_blank" rel="noreferrer">Visitar GitHub</a> 
+                        <a className="flex-1 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-bl-md text-xs hover:text-[14px] transition-all" href="https://pokedexfind.netlify.app"  target="_blank" rel="noreferrer" >Visitar Página</a>
+                        <a className="flex-1  bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-br-md text-xs  hover:text-[14px] transition-all" href="https://github.com/edisonmaya/pokedex" target="_blank" rel="noreferrer">Visitar GitHub</a> 
                         </div>
                     </div>
                 </div>
@@ -35,20 +35,37 @@ const ContainerProjects2 = () => {
                 </article>
                 
             </div>
-            <div id="ContainerProjects2" className="text-white gap-4 min-h-screen max-w-4xl xl:max-w-6xl mx-auto p-10 flex flex-row-reverse flex-wrap-reverse justify-evenly mt-10">
+            <div  className="text-white gap-4 min-h-screen max-w-4xl xl:max-w-6xl mx-auto p-10 flex flex-row-reverse flex-wrap-reverse justify-evenly mt-10">
             <div className="relative flex items-center justify-center md:max-w-[80vh]">
                 <img className=" max-w-[300px] md:max-w-[450px]" src="/MaskGroup.svg" alt="" />
                 <div className=" absolute flex flex-col w-[90%]  rounded-2xl bg-[#3e3c3c30] p-2 break-words text-center text-white md:text-sm lg:text-lg transition-all">
                     <img className=" w-full rounded mx-auto" src="/ecommers.png" alt="" /> 
                     <div className="flex justify-between items-center transition-all">
-                    <a className="flex-1 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-bl-md text-xs hover:text-[14px] transition-all" href="https://crudformusers.netlify.app/"  target="_blank" rel="noreferrer" >Visitar Página</a>
-                    <a className="flex-1  bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-br-md text-xs  hover:text-[14px] transition-all" href="https://github.com/edisonmaya/crudform" target="_blank" rel="noreferrer">Visitar GitHub</a> 
+                    <a className="flex-1 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-bl-md text-xs hover:text-[14px] transition-all" href="https://ecommeredisonmaya.netlify.app"  target="_blank" rel="noreferrer" >Visitar Página</a>
+                    <a className="flex-1  bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-br-md text-xs  hover:text-[14px] transition-all" href="https://github.com/edisonmaya/ecommerce" target="_blank" rel="noreferrer">Visitar GitHub</a> 
                     </div>
                 </div>
             </div>
             <article className="  p-5 min-w-[300px] md:text-3xl xl:text-5xl flex flex-col flex-1 gap-5 justify-center items-center  text-white font-Sen font-bold text-2xl  break-words">
                 <h2><span className="text-[#9BA4ED] ">Ecommerce </span> Web</h2>
                 <p className=" text-xs sm:text-base font-normal text-justify ">Este mini módulo simula un Ecommerce Online obteniendo información desde la API aumentando ó disminuyendo tanto la cantidad, como el valor en productos seleccionados en el carrito de compras el Software es capaz de mostrar y filtrar los productos en una lista desarrollada con un diseño Intuitivo-Responsivo para cualquier dispositivo Mobile y Desktop.</p>
+            </article>
+            
+        </div>
+        <div  className="text-white gap-4 min-h-screen max-w-4xl xl:max-w-6xl mx-auto p-10 flex flex-row-reverse flex-wrap-reverse justify-evenly mt-10">
+            <div className="relative flex items-center justify-center md:max-w-[80vh]">
+                <img className=" max-w-[300px] md:max-w-[450px]" src="/MaskGroup.svg" alt="" />
+                <div className=" absolute flex flex-col w-[90%]  rounded-2xl bg-[#3e3c3c30] p-2 break-words text-center text-white md:text-sm lg:text-lg transition-all">
+                    <img className=" w-full rounded mx-auto" src="/morty.png" alt="" /> 
+                    <div className="flex justify-between items-center transition-all">
+                    <a className="flex-1 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-bl-md text-xs hover:text-[14px] transition-all" href="https://rickandmortywp.netlify.app"  target="_blank" rel="noreferrer" >Visitar Página</a>
+                    <a className="flex-1  bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 p-2 rounded-br-md text-xs  hover:text-[14px] transition-all" href="https://github.com/edisonmaya/rickandmorty" target="_blank" rel="noreferrer">Visitar GitHub</a> 
+                    </div>
+                </div>
+            </div>
+            <article className="  p-5 min-w-[300px] md:text-3xl xl:text-5xl flex flex-col flex-1 gap-5 justify-center items-center  text-white font-Sen font-bold text-2xl  break-words">
+                <h2><span className="text-[#9BA4ED] ">Universo </span> Rick and Morty</h2>
+                <p className=" text-xs sm:text-base font-normal text-justify ">Esta aplicación tiene la facilidad de búsqueda seres de otros mundos en el universo de Rick and Morty agrupándolos por localidades y mostrando información de gran utilidad, obteniendo la información desde la API el Software es capaz de mostrar los personajes con una grilla y adicionalmente muestra una paginación en caso de existir una gran cantidad de personajes con un diseño Intuitivo-Responsivo para cualquier dispositivo Mobile y Desktop.</p>
             </article>
             
         </div>
